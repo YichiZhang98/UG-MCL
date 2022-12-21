@@ -1,7 +1,7 @@
 # Uncertainty-guided mutual consistency learning for semi-supervised medical image segmentation
 
 
-This is the repository of our paper '[Uncertainty-guided mutual consistency learning for semi-supervised medical image segmentation] https://www.sciencedirect.com/science/article/pii/S0933365722002287)' (AIIM 2022), which is developed for our previous works [DTML](https://arxiv.org/abs/2103.04708) (PRCV 2021).
+This is the repository of our paper '[Uncertainty-guided mutual consistency learning for semi-supervised medical image segmentation](https://www.sciencedirect.com/science/article/pii/S0933365722002287)' (AIIM 2022), which is developed for our previous works [DTML](https://arxiv.org/abs/2103.04708) (PRCV 2021).
 
 
 
@@ -11,7 +11,7 @@ This is the repository of our paper '[Uncertainty-guided mutual consistency lear
 
 * This repository is our implementation on BraTS dataset.
 
-* Our pre-trained models can be found at [here](https://github.com/YichiZhang98/UG-MCL/model).
+* Our pre-trained models can be found at [here](https://github.com/YichiZhang98/UG-MCL/tree/main/model).
 
 * More details can be found in [our paper](https://www.sciencedirect.com/science/article/pii/S0933365722002287).
 
@@ -30,12 +30,12 @@ cd UG-MCL
 3. Train the model
 ```
 cd code
-train_UGMCL_3D.py
+python train_UGMCL_3D.py
 ```
 
 4. Test the model
 ```
-test_3D_dt.py
+python test_3D_dt.py
 ```
 
 
@@ -43,9 +43,9 @@ test_3D_dt.py
 
 ## Acknowledgement
 
-* This code and experimental setting is adapted from [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) and other implementations including  [UA-MT](https://github.com/yulequan/UA-MT),  [DTC](https://github.com/HiLab-git/DTC) and [DTML](https://github.com/YichiZhang98/DTML).
+* This code and experimental setting is adapted from [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) and other implementations including  [UA-MT](https://github.com/yulequan/UA-MT),  [DTC](https://github.com/HiLab-git/DTC) and [DTML](https://github.com/YichiZhang98/DTML). Thanks for these authors for their valuable works and hope our model can promote the relevant research as well.
 
-* More semi-supervised learning approaches for medical image segmentation have been summarized in our [survey](https://arxiv.org/abs/2207.14191).
+* More semi-supervised approaches for medical image segmentation have been summarized in our [survey](https://arxiv.org/abs/2207.14191).
 
 * If our project is useful for your research, please consider citing the following works:
 
