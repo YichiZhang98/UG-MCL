@@ -1,7 +1,7 @@
 # Uncertainty-guided mutual consistency learning for semi-supervised medical image segmentation
 
 
-This is the repository of our paper '[Uncertainty-guided mutual consistency learning for semi-supervised medical image segmentation](https://www.sciencedirect.com/science/article/pii/S0933365722002287)' (AIIM 2022), which is developed for our previous works [DTML](https://arxiv.org/abs/2103.04708) (PRCV 2021).
+This is the repository of our paper '[Uncertainty-guided mutual consistency learning for semi-supervised medical image segmentation](https://www.sciencedirect.com/science/article/pii/S0933365722002287)' (AIIM 2022), which is developed for our previous works [DTML](https://link.springer.com/chapter/10.1007/978-3-030-88010-1_46) (PRCV 2021).
 
 
 
